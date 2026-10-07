@@ -4,8 +4,8 @@ from pydantic import Field
 
 
 class Settings(BaseSettings):
-    APP_NAME: str = "AED Scan Service (beta)"
-    APP_VERSION: str = "0.1.0"
+    APP_NAME: str = "AED Scan Service"
+    APP_VERSION: str = "2.0.0"
     DEBUG: bool = False
 
     HOST: str = "0.0.0.0"
