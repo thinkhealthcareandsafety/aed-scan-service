@@ -9,7 +9,7 @@ import hmac
 
 from fastapi import Header, HTTPException
 
-from app.config import settings
+from app.core.config import settings
 
 
 async def require_service_token(authorization: str = Header(default="")) -> None:
